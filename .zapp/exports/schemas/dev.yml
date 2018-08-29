@@ -1,0 +1,6 @@
+type: object
+properties:
+  dependencies:
+    type: object
+    additionalProperties:
+      type: string

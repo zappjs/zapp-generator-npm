@@ -1,0 +1,14 @@
+filename: package.json
+mapping:
+  name: /app/name
+  version: /app/version
+  description: /app/description
+  dependencies: /dependencies
+  devDependencies: /dev/dependencies
+  scripts: /scripts
+  main: /app/main
+  author: /app/author
+  license: /app/license
+  homepage: /app/homepage
+  contributors: /app/contributors
+engine: json

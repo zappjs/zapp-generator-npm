@@ -1,0 +1,45 @@
+type: object
+properties:
+  title:
+    type: string
+  description:
+    type: string
+  name:
+    type: string
+  main:
+    type: string
+    description: Primary entry point to your program.
+  homepage:
+    type: string
+    description: The project's homepage.
+  license:
+    type: string
+    description: 'The type of license. (source: https://spdx.org/licenses)'
+  author:
+    type: object
+    description: The author.
+    properties:
+      name:
+        type: string
+        description: The author's name.
+      email:
+        type: string
+        description: The author's email address.
+      url:
+        type: string
+        description: The author's url.
+  contributors:
+    type: array
+    items:
+      type: object
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+        url:
+          type: string
+    description: The contributors.
+  version:
+    description: the app version
+    type: string

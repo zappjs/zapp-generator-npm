@@ -1,0 +1,6 @@
+name: '@zappjs/generator-npm'
+title: npm Generator
+version: 0.1.0
+description: generates a package.json file
+copyright: 2018 ZappJS
+license: apache-2.0
